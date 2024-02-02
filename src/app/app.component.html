@@ -1,3 +1,29 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
+<!-- <ion-app>
+
 </ion-app>
+ -->
+<div class="container">
+  <h1>REPASO PRUEBA</h1>
+  <h3>CONTADOR</h3>
+  <div>
+    <div class="row">
+      <div class="col">
+        <div>{{ contador }}</div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <button class="btn btn-primary" (click)="incrementar()">INICIO</button>
+    </div>
+    <div class="col">
+      <button class="btn btn-primary" (click)="pausar()">PAUSA</button>
+    </div>
+    <div class="col">
+      <button class="btn btn-primary" (click)="reiniciar()">FIN</button>
+    </div>
+  </div>
+</div>
+
+
+<app-pares></app-pares>
